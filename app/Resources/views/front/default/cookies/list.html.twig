@@ -75,15 +75,3 @@
         <a href="{{ path('cookies_add') }}" class="btn btn-primary pull-right">Make some cookie !</a>
     {% endif %}
 {% endblock %}
-
-{% block javascripts %}
-    <script>
-        $(document).on("click", ".open-shareCookie", function () {
-            var cookieName = $(this).data('name');
-            var cookieId = $(this).data('id');
-            $(".modal-body #cookieName").html(cookieName);
-            $(".modal-body #cookieId").val(cookieId);
-            $('#myModal').modal();
-        });
-    </script>
-{% endblock %}

@@ -1,4 +1,3 @@
-.idea
 /.idea
 /.web-server-pid
 /app/config/parameters.yml
@@ -17,3 +16,4 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
+nodes_modules/
