@@ -1,0 +1,17 @@
+{% extends 'front/base.html.twig' %}
+
+{% block title %}Add cookie{% endblock %}
+
+{% block body %}
+
+    <div class="jumbotron">
+        <h1>Add Cookies</h1>
+    </div>
+
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+
+    <input type="submit" value="Create" class="btn btn-default pull-right" />
+    {{ form_end(form) }}
+
+{% endblock %}

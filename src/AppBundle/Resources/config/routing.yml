@@ -1,0 +1,12 @@
+homepage:
+    path:     /
+    defaults: { _controller: AppBundle:Front\Homepage:index, _active: "homepage" }
+    
+app_user:
+    resource: "@AppBundle/Resources/config/routing/user.yml"
+    prefix: /user
+
+app_cookie:
+    resource: "@AppBundle/Resources/config/routing/cookie.yml"
+    prefix: /cookie
+

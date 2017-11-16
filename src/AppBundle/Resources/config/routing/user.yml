@@ -1,0 +1,15 @@
+user_login:
+    path: /login
+    defaults: { _controller: AppBundle:Front\Security:login, _active: "login" }
+
+user_register:
+    path: /register
+    defaults: { _controller: AppBundle:Front\Security:register, _active: "register" }
+
+user_account:
+    path: /account
+    defaults: { _controller: AppBundle:Front\Security:editAccount, _active: "account_edit" }
+
+user_logout:
+    path:  /logout
+    defaults: { _controller: AppBundle:Front\Security:logout }

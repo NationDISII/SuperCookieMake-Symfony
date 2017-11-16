@@ -1,0 +1,13 @@
+{% extends 'front/base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+
+    <div class="jumbotron">
+        <h1>Welcome to MyCookie</h1>
+        <p>Make some delicious cookie and sell it !</p>
+        <a href="{{ path('cookies_list') }}" class="btn btn-primary btn-lg">See all the cookie !</a>
+    </div>
+
+{% endblock %}

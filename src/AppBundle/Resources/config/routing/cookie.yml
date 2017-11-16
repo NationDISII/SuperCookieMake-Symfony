@@ -1,0 +1,15 @@
+cookies_list:
+    path: /list
+    defaults: { _controller: AppBundle:Front\Cookie:index, _active: "list_cookie" }
+
+cookies_eat:
+    path: /eat/{id}
+    defaults: { _controller: AppBundle:Front\Cookie:eat }
+
+cookies_share:
+    path: /share
+    defaults: { _controller: AppBundle:Front\Cookie:share }
+
+cookies_add:
+    path: /add
+    defaults: { _controller: AppBundle:Front\Cookie:add }
